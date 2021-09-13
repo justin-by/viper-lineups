@@ -101,4 +101,30 @@ li, ul {
     -webkit-transition: transform .25s;
 }
 
+.home-background {
+    box-sizing: border-box;
+    overflow: visible;
+    flex-grow: 1;
+    height: calc(100vh - 80px);
+    background-image: url('../images/main\ page.png');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.home-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.left-home-box {
+    background-color: gray;
+    height: 100%;
+    width: 100px;
+    position: relative;
+}
+
+
+
 
