@@ -118,11 +118,93 @@ li, ul {
     height: 100%;
 }
 
+@media only screen and (max-width: 1650px) {
 .left-home-box {
-    background-color: gray;
-    height: 100%;
-    width: 100px;
     position: relative;
+    height: 100%;
+    max-width: 5%;
+   }
+}
+
+.left-home-box {
+    height: 100%;
+    width: 20%;
+    position: relative;
+    border-right: 1px solid #eee;
+
+}
+
+.left-home-box-title {
+    margin: 0;
+    position: absolute;
+    top: -4rem;
+    right: 0;
+    letter-spacing: 3px;
+    font-size:2rem;
+    display: flex;
+    justify-content: space-around;
+    width: calc(100vh - 100px);
+    transform-origin: bottom right;
+    transform: rotate(
+-90deg);
+    text-align: center;
+    font-family: "Tungsten-Bold",sans-serif;
+    color: #eee4e4;
+}
+
+@media only screen and (max-width: 1300px) {
+    .middle-home-box {
+        width: 55%;
+    }
+}
+
+.middle-home-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 30%;
+    height: 100%;
+    border-right: 1px solid #eee;
+    overflow: hidden;
+}
+
+.viper-title-home {
+    transform: translate(0px, 0px);
+    position: relative;
+    margin-top: 20%;
+    color: #ebebeb;
+    font-size: 5rem;
+    font-family: "DrukWide";
+    border-bottom: 1px solid #eee;
+    padding-left: 1rem;
+    padding-right: 4rem;
+    letter-spacing: .5rem;
+    margin-bottom: 0;
+}
+
+h1:before {
+    position: absolute;
+    content: attr(data-content);
+    text-decoration: underline;
+    -webkit-clip-path: polygon(0 0,0 0,0 100%,0 100%);
+    clip-path: polygon(0 0,0 0,0 100%,0 100%);
+    transition: -webkit-clip-path 275ms ease;
+    transition: clip-path 275ms ease;
+    transition: clip-path 275ms ease,-webkit-clip-path 275ms ease;
+    -webkit-text-decoration-color: #ff4655;
+    text-decoration-color: #ff4655;
+}
+
+.Intro_main_title__2ELli:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: .5rem;
+    width: 1.2rem;
+    bottom: 0;
+    right: 0;
+    background-color: #051022;
 }
 
 

@@ -30,6 +30,19 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                 <div className='home-container'>
 
                     <div className='left-home-box'>
+                        <h1 className='left-home-box-title'>
+                            <span>
+                                CONTROLLER &nbsp;&nbsp; //
+                            </span>
+                            <span>
+                                SABINE
+                            </span>
+                        </h1>
+                    </div>
+                    <div className='middle-home-box'>
+                        <h1 className='viper-title-home'>
+                            VIPER
+                        </h1>
 
                     </div>
                 </div>
