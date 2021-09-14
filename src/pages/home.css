@@ -118,12 +118,15 @@ li, ul {
     height: 100%;
 }
 
-@media only screen and (max-width: 1650px) {
-.left-home-box {
-    position: relative;
-    height: 100%;
-    max-width: 5%;
-   }
+.home-background-text {
+    color: transparent;
+    position: absolute;
+    top: 20px;
+    font-size: 18rem;
+    font-family: "ValorantFont",sans-serif;
+    -webkit-text-stroke: 1px rgba(71,71,71,.589);
+    line-height: 25rem;
+    margin-left: 15%;
 }
 
 .left-home-box {
@@ -131,7 +134,14 @@ li, ul {
     width: 20%;
     position: relative;
     border-right: 1px solid #eee;
+}
 
+@media only screen and (max-width: 1650px) {
+    .left-home-box {
+        position: relative;
+        height: 100%;
+        max-width: 5%;
+       }
 }
 
 .left-home-box-title {
@@ -152,12 +162,6 @@ li, ul {
     color: #eee4e4;
 }
 
-@media only screen and (max-width: 1300px) {
-    .middle-home-box {
-        width: 55%;
-    }
-}
-
 .middle-home-box {
     display: flex;
     flex-direction: column;
@@ -168,6 +172,13 @@ li, ul {
     border-right: 1px solid #eee;
     overflow: hidden;
 }
+
+@media only screen and (max-width: 1300px) {
+    .middle-home-box {
+        width: 55%;
+    }
+}
+
 
 .viper-title-home {
     transform: translate(0px, 0px);
@@ -183,6 +194,12 @@ li, ul {
     margin-bottom: 0;
 }
 
+@media only screen and (max-width: 950px) {
+    .viper-title-home {
+        font-size: 3rem;
+    }
+}
+
 h1:before {
     position: absolute;
     content: attr(data-content);
@@ -196,16 +213,8 @@ h1:before {
     text-decoration-color: #ff4655;
 }
 
-.Intro_main_title__2ELli:after {
-    content: "";
-    display: block;
-    position: absolute;
-    height: .5rem;
-    width: 1.2rem;
-    bottom: 0;
-    right: 0;
-    background-color: #051022;
-}
+
+
 
 
 

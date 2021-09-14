@@ -28,6 +28,9 @@ const HomePage: React.FunctionComponent<IPage> = props => {
             </ul>
             <div className='home-background'>
                 <div className='home-container'>
+                    <div className='home-background-text'>
+                        vALORANT
+                    </div>
 
                     <div className='left-home-box'>
                         <h1 className='left-home-box-title'>
