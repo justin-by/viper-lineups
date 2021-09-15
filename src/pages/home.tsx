@@ -53,6 +53,14 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                         <img className='viper-image' alt='viper' src={viperImg}></img>
 
                     </div>
+                    <div className='right-home-box'>
+                        <div className='side-viper-text'>
+                            VIPER
+                        </div>
+                        <div className='flip-side-viper-text'>
+                            VIPER
+                        </div>
+                    </div>
                 </div>
             </div>
 

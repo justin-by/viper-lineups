@@ -233,7 +233,7 @@ h1:before {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 30%;
+    width: 22%;
     height: 100%;
     border-right: 2px solid #eee;
     overflow: hidden;
@@ -244,7 +244,41 @@ h1:before {
     overflow-y: hidden;
     bottom: 5rem;
     height: 700px;
+    z-index: 10;
 }
+
+.side-viper-text {
+    position: absolute;
+    font-size: 12rem;
+    top: 25rem;
+    transform: rotate(90deg);
+    font-family: "DrukWide";
+    color: transparent;
+    -webkit-text-stroke: 1px #eee;
+    right: 0rem;
+}
+
+.flip-side-viper-text {
+    position: absolute;
+    font-size: 12rem;
+    top: 25rem;
+    transform: rotate(270deg);
+    font-family: "DrukWide";
+    color: transparent;
+    -webkit-text-stroke: 1px #eee;
+    right: -12rem;
+}
+
+.right-home-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+}
+
 
 
 
