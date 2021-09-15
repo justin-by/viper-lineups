@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import IPage from '../interfaces/page';
+import viperImg from '../images/viper1.png'
 
 import './home.css'
 
@@ -46,6 +47,10 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                         <h1 className='viper-title-home'>
                             VIPER
                         </h1>
+
+                    </div>
+                    <div className='middle-left-home-box'>
+                        <img className='viper-image' alt='viper' src={viperImg}></img>
 
                     </div>
                 </div>

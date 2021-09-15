@@ -133,7 +133,7 @@ li, ul {
     height: 100%;
     width: 20%;
     position: relative;
-    border-right: 1px solid #eee;
+    border-right: 2px solid #eee;
 }
 
 @media only screen and (max-width: 1650px) {
@@ -227,6 +227,27 @@ h1:before {
     -webkit-text-decoration-color: #ff4655;
     text-decoration-color: #ff4655;
 }
+
+.middle-left-home-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 30%;
+    height: 100%;
+    border-right: 2px solid #eee;
+    overflow: hidden;
+}
+
+.viper-image {
+    position: absolute;
+    overflow-y: hidden;
+    bottom: 5rem;
+    height: 700px;
+}
+
+
+
 
 
 
