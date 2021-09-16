@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import ReactPlayer from 'react-player'
 import IPage from '../interfaces/page';
 import viperImg from '../images/viper1.png'
 
@@ -47,6 +48,17 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                         <h1 className='viper-title-home'>
                             VIPER
                         </h1>
+                        <div className='corner-container'>
+                            <p className='corner-text'>
+                                Viper is a brilliant scientist coming from the United States.
+                                She earned a doctorate in chemistry and used her knowledge to heal others when she was younger.
+                                She is the second member of the VALORANT Protocol, joining along with Brimstone.
+                            </p>
+                            <div className='corner-video-container'>
+                                <video className='corner-video' src='https://i.imgur.com/LbscBPk.mp4' loop autoPlay muted />
+                            </div>
+
+                        </div>
 
                     </div>
                     <div className='middle-left-home-box'>

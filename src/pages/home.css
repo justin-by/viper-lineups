@@ -279,6 +279,38 @@ h1:before {
     overflow: hidden;
 }
 
+.corner-container {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 400px;
+    height: 600px;
+    background-image: url('../images/stroke.png');
+    
+
+}
+
+.corner-text {
+    position: relative;
+    font-family: "Interstate",sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    padding: 2rem 2rem 2rem;
+    margin: 0;
+    line-height: 2.2rem;
+    color: #fff;
+}
+
+.corner-video-container {
+    display: flex;
+    justify-content: center;
+}
+
+.corner-video {
+    margin-top: 10px;
+    position: relative;
+    width: 97%;
+    height: 100%;
+}
 
 
 
