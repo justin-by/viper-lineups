@@ -119,6 +119,7 @@ li, ul {
 }
 
 .home-background-text {
+    pointer-events: none;
     color: transparent;
     position: absolute;
     top: 20px;
@@ -285,7 +286,6 @@ h1:before {
     width: 400px;
     height: 600px;
     background-image: url('../images/stroke.png');
-    
 
 }
 
@@ -310,6 +310,20 @@ h1:before {
     position: relative;
     width: 97%;
     height: 100%;
+}
+
+.abilities-container {
+    position: absolute;
+    width: 58.3%;
+    height: 317px;
+    bottom: 51px;
+    left:800px;
+    background-color: blue;
+}
+
+.side-desc-text {
+    animation: fadeIn 4s;
+    -webkit-animation: fadeIn 4s;
 }
 
 

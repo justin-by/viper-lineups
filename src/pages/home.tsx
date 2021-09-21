@@ -36,10 +36,10 @@ const HomePage: React.FunctionComponent<IPage> = props => {
 
                     <div className='left-home-box'>
                         <h1 className='left-home-box-title'>
-                            <span>
+                            <span className='side-desc-text'>
                                 CONTROLLER &nbsp;&nbsp; //
                             </span>
-                            <span>
+                            <span className='side-desc-text'>
                                 SABINE
                             </span>
                         </h1>
@@ -58,6 +58,9 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                                 <video className='corner-video' src='https://i.imgur.com/LbscBPk.mp4' loop autoPlay muted />
                             </div>
 
+                        </div>
+                        <div className='abilities-container'>
+                            HELLO
                         </div>
 
                     </div>
