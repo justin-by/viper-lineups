@@ -47,34 +47,90 @@ const HomePage: React.FunctionComponent<IPage> = props => {
 
                         </div>
                         <div className='abilities-container'>
+
                             <div className='ability-box'>
                                 <div className='ability-pic-container'>
                                     <img src={snakeBite} className='ability-pic' />
                                 </div>
-                                <div className='ability-header'>
-                                    <span className='ability-hotkey'>
-                                        C
-                                    </span>
-                                    <span className='ability-title'>
-                                        SNAKE BITE
-                                    </span>
+                                <div className='wrapper'>
+                                    <div className='ability-header'>
+                                        <span className='ability-hotkey'>
+                                            C
+                                        </span>
+                                        <span className='ability-title'>
+                                            SNAKE BITE
+                                        </span>
+                                    </div>
+                                    <p className='ability-desc'>
+                                        EQUIP a chemical launcher. FIRE to launch a canister that shatters upon hitting the floor,
+                                        creating a lingering chemical zone that damages and applies Vulnerable.
+                                    </p>
                                 </div>
-                                <div className='ability-desc'>
-                                    
+                            </div>
+
+                            <div className='ability-box'>
+                                <div className='ability-pic-container'>
+                                    <img src={snakeBite} className='ability-pic' />
                                 </div>
-
+                                <div className='wrapper'>
+                                    <div className='ability-header'>
+                                        <span className='ability-hotkey'>
+                                            C
+                                        </span>
+                                        <span className='ability-title'>
+                                            SNAKE BITE
+                                        </span>
+                                    </div>
+                                    <p className='ability-desc'>
+                                        EQUIP a chemical launcher. FIRE to launch a canister that shatters upon hitting the floor,
+                                        creating a lingering chemical zone that damages and applies Vulnerable.
+                                    </p>
+                                </div>
                             </div>
-                            <div>
 
+                            <div className='ability-box'>
+                                <div className='ability-pic-container'>
+                                    <img src={snakeBite} className='ability-pic' />
+                                </div>
+                                <div className='wrapper'>
+                                    <div className='ability-header'>
+                                        <span className='ability-hotkey'>
+                                            C
+                                        </span>
+                                        <span className='ability-title'>
+                                            SNAKE BITE
+                                        </span>
+                                    </div>
+                                    <p className='ability-desc'>
+                                        EQUIP a chemical launcher. FIRE to launch a canister that shatters upon hitting the floor,
+                                        creating a lingering chemical zone that damages and applies Vulnerable.
+                                    </p>
+                                </div>
                             </div>
-                            <div>
 
+                            <div className='ability-box'>
+                                <div className='ability-pic-container'>
+                                    <img src={snakeBite} className='ability-pic' />
+                                </div>
+                                <div className='wrapper'>
+                                    <div className='ability-header'>
+                                        <span className='ability-hotkey'>
+                                            C
+                                        </span>
+                                        <span className='ability-title'>
+                                            SNAKE BITE
+                                        </span>
+                                    </div>
+                                    <p className='ability-desc'>
+                                        EQUIP a chemical launcher. FIRE to launch a canister that shatters upon hitting the floor,
+                                        creating a lingering chemical zone that damages and applies Vulnerable.
+                                    </p>
+                                </div>
                             </div>
-                            <div>
 
-                            </div>
+
+
                         </div>
-
                     </div>
                     <div className='middle-left-home-box'>
                         <img className='viper-image' alt='viper' src={viperImg}></img>
@@ -92,7 +148,7 @@ const HomePage: React.FunctionComponent<IPage> = props => {
             </div>
         </>
 
-    )
+    );
 }
 
 export default HomePage;
