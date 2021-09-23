@@ -327,6 +327,7 @@ h1:before {
 }
 
 .ability-box {
+    display: flex;
     z-index: 12;
     background-color: #081017;
     width: 50%;
@@ -350,6 +351,46 @@ h1:before {
 .ability-pic {
     width: auto;
     height: 130px;
+}
+
+.ability-header {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+
+.ability-hotkey {
+    background-color: #323d48;
+    font-family: 'Rubik', sans-serif;
+    display: inline-block;
+    color: #ccc;
+    border-radius: .25em;
+    width: 1.5em;
+    height: 1.5em;
+    text-align: center;
+    font-size: .9em;
+    font-weight: normal;
+    margin-right: .5rem;
+    padding: .2rem .1rem 0 .1rem;
+    margin-left: .8rem;
+}
+
+.ability-title {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #ff4b50;
+    transition: color .3s;
+    transition-property: color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.ability-desc {
+    background-color: pink;
 }
 
 

@@ -13,8 +13,8 @@ const HomePage: React.FunctionComponent<IPage> = props => {
 
     return (
         <>
-            <NavBar name={'NavBar'}/>
-            
+            <NavBar name={'NavBar'} />
+
             <div className='home-background'>
                 <div className='home-container'>
                     <div className='home-background-text'>
@@ -51,6 +51,18 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                                 <div className='ability-pic-container'>
                                     <img src={snakeBite} className='ability-pic' />
                                 </div>
+                                <div className='ability-header'>
+                                    <span className='ability-hotkey'>
+                                        C
+                                    </span>
+                                    <span className='ability-title'>
+                                        SNAKE BITE
+                                    </span>
+                                </div>
+                                <div className='ability-desc'>
+                                    
+                                </div>
+
                             </div>
                             <div>
 
