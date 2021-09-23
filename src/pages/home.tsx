@@ -3,6 +3,9 @@ import IPage from '../interfaces/page';
 
 import viperImg from '../images/viper1.png'
 import snakeBite from '../images/first.png'
+import poisonCloud from '../images/second.png'
+import toxicScreen from '../images/third.png'
+import viperPit from '../images/fourth.png'
 
 import NavBar from './navbar'
 
@@ -70,7 +73,7 @@ const HomePage: React.FunctionComponent<IPage> = props => {
 
                             <div className='ability-box'>
                                 <div className='ability-pic-container'>
-                                    <img src={snakeBite} className='ability-pic' />
+                                    <img src={poisonCloud} className='ability-pic' />
                                 </div>
                                 <div className='wrapper'>
                                     <div className='ability-header'>
@@ -78,19 +81,19 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                                             C
                                         </span>
                                         <span className='ability-title'>
-                                            SNAKE BITE
+                                            POISON CLOUD
                                         </span>
                                     </div>
                                     <p className='ability-desc'>
-                                        EQUIP a chemical launcher. FIRE to launch a canister that shatters upon hitting the floor,
-                                        creating a lingering chemical zone that damages and applies Vulnerable.
+                                        EQUIP a gas emitter. FIRE to throw the emitter that perpetually remains throughout the round.
+                                        RE-USE the ability to create a toxic gas cloud at the cost of fuel.
                                     </p>
                                 </div>
                             </div>
 
                             <div className='ability-box'>
                                 <div className='ability-pic-container'>
-                                    <img src={snakeBite} className='ability-pic' />
+                                    <img src={toxicScreen} className='ability-pic' />
                                 </div>
                                 <div className='wrapper'>
                                     <div className='ability-header'>
@@ -98,19 +101,20 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                                             C
                                         </span>
                                         <span className='ability-title'>
-                                            SNAKE BITE
+                                            TOXIC SCREEN
                                         </span>
                                     </div>
                                     <p className='ability-desc'>
-                                        EQUIP a chemical launcher. FIRE to launch a canister that shatters upon hitting the floor,
-                                        creating a lingering chemical zone that damages and applies Vulnerable.
+                                        EQUIP a gas emitter launcher. FIRE to deploy a long line of gas emitters.
+                                        RE-USE the ability to create a tall wall of toxic gas at the cost of fuel.
+                                        This ability can be RE-USED more than once.
                                     </p>
                                 </div>
                             </div>
 
                             <div className='ability-box'>
                                 <div className='ability-pic-container'>
-                                    <img src={snakeBite} className='ability-pic' />
+                                    <img src={viperPit} className='ability-pic' />
                                 </div>
                                 <div className='wrapper'>
                                     <div className='ability-header'>
@@ -118,12 +122,12 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                                             C
                                         </span>
                                         <span className='ability-title'>
-                                            SNAKE BITE
+                                            VIPER'S PIT
                                         </span>
                                     </div>
                                     <p className='ability-desc'>
-                                        EQUIP a chemical launcher. FIRE to launch a canister that shatters upon hitting the floor,
-                                        creating a lingering chemical zone that damages and applies Vulnerable.
+                                        EQUIP a chemical sprayer. FIRE to spray a chemical cloud in all directions around Viper, creating a
+                                        large cloud that reduces vision range of players and maximum health of enemies.
                                     </p>
                                 </div>
                             </div>
