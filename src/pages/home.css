@@ -244,7 +244,9 @@ h1:before {
 .viper-image {
     position: absolute;
     overflow-y: hidden;
-    bottom: 5rem;
+    width: auto;
+    height: auto;
+    bottom: 11rem;
     height: 700px;
     z-index: 10;
 }
@@ -315,16 +317,39 @@ h1:before {
 
 .abilities-container {
     position: absolute;
+    display: flex;
     width: 58.5%;
     height: 317px;
     bottom: 51px;
     left:797px;
     background-color: blue;
+    z-index: 11;
+}
+
+.ability-box {
+    z-index: 12;
+    background-color: #081017;
+    width: 50%;
+    height: 50%;
 }
 
 .side-desc-text {
     animation: fadeIn 4s;
     -webkit-animation: fadeIn 4s;
+}
+
+.ability-pic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 100%;
+    width: 25%;
+}
+
+.ability-pic {
+    width: auto;
+    height: 130px;
 }
 
 
