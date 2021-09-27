@@ -29,7 +29,6 @@ const NavBar: React.FunctionComponent<IPage> = props => {
                             <p className='map-select' onClick={(event: React.MouseEvent<HTMLElement>) => history.push('breeze')}>BRREEZE</p>
                             <p className='map-select' onClick={(event: React.MouseEvent<HTMLElement>) => history.push('fracture')}>FRACTURE</p>
                         </div>}
-
                     </div>
                 </li>
                 <a className='nav-about' href='/about'>

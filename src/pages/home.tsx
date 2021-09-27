@@ -78,7 +78,7 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                                 <div className='wrapper'>
                                     <div className='ability-header'>
                                         <span className='ability-hotkey'>
-                                            C
+                                            Q
                                         </span>
                                         <span className='ability-title'>
                                             POISON CLOUD
@@ -98,7 +98,7 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                                 <div className='wrapper'>
                                     <div className='ability-header'>
                                         <span className='ability-hotkey'>
-                                            C
+                                            E
                                         </span>
                                         <span className='ability-title'>
                                             TOXIC SCREEN
@@ -119,7 +119,7 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                                 <div className='wrapper'>
                                     <div className='ability-header'>
                                         <span className='ability-hotkey'>
-                                            C
+                                            X
                                         </span>
                                         <span className='ability-title'>
                                             VIPER'S PIT
