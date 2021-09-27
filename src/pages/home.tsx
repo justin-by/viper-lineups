@@ -45,7 +45,7 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                                 She is the second member of the VALORANT Protocol, joining along with Brimstone.
                             </p>
                             <div className='corner-video-container'>
-                                <video className='corner-video' src='https://i.imgur.com/LbscBPk.mp4' loop autoPlay muted />
+                                <video className='corner-video' id='myVideo' src='https://i.imgur.com/LbscBPk.mp4' loop autoPlay muted />
                             </div>
 
                         </div>

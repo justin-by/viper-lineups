@@ -58,6 +58,7 @@ li, ul {
     display: inline-block;
 }
 
+
 .nav-dropdown-button {
     background-color: transparent;
     color: #fff;
@@ -66,7 +67,12 @@ li, ul {
     cursor: pointer;
     font-size: .8rem;
     font-family: GoodTimes;
+}
 
+.nav-dropdown-button:hover {
+    color: tomato;
+    transition: all 1s ease;
+    cursor: pointer;
 }
 
 .nav-about {
@@ -438,6 +444,33 @@ h1:before {
     margin: .5rem 0 0 .8rem;
     width: 95%;
 }
+
+.maps-dropdown  {
+    display: block;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+    border-radius: 3px;
+    z-index: 1;
+}
+
+.map-select {
+    text-decoration: none;
+    display: block;
+    padding: 12px 16px;
+    color: black;
+    font-family: GoodTimes;
+    font-size: 80%;
+    font-weight: bold;
+}
+
+.map-select:hover {
+    background-color: #ff5959;
+    transition: all .6s ease;
+    cursor: pointer;
+}
+
 
 
 
