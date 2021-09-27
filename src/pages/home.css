@@ -5,11 +5,19 @@
 }
 
 
+/* REMOVE THIS CSS ON OTHER PAGES - AVOIDS SCROLLBARS ON ANIMATION */
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
 .navbar {
+    position: relative;
     width: 100%;
     height: 80px;
     background-color: #1f2326;
-    z-index: 10;
+    z-index: 111;
 }
 
 .nav-buttons {
@@ -117,6 +125,7 @@ li, ul {
     display: flex;
     width: 100%;
     height: 100%;
+    overflow-y: hidden;
 }
 
 .home-background-text {
@@ -203,6 +212,7 @@ li, ul {
 }
 
 
+
 @-webkit-keyframes slide {
     100% { left: 0; }
 }
@@ -260,18 +270,46 @@ h1:before {
     color: transparent;
     -webkit-text-stroke: 1px #eee;
     right: 0rem;
+    z-index: 2;
+    animation: 3s slide-down;
 }
+
+
+@keyframes slide-down {
+    from {
+      top: -30rem;
+    }
+  
+    to {
+      top: 25rem;
+
+    }
+  }
 
 .flip-side-viper-text {
     position: absolute;
     font-size: 12rem;
-    top: 25rem;
+    bottom: 20.3rem;
     transform: rotate(270deg);
     font-family: "DrukWide";
     color: transparent;
     -webkit-text-stroke: 1px #eee;
     right: -12rem;
+    overflow-y: hidden;
+    animation: 3s slide-up;
 }
+
+@keyframes slide-up {
+    from {
+      bottom: -30rem;
+    }
+  
+    to {
+      bottom: 20.3rem;
+    }
+  }
+
+
 
 .right-home-box {
     display: flex;
@@ -456,6 +494,9 @@ h1:before {
         display: none;
     }
     .side-viper-text {
+        display: none;
+    }
+    .home-background-text {
         display: none;
     }
 }
