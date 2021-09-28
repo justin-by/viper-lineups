@@ -36,6 +36,10 @@ body {
     margin-left: 3rem;
 }
 
+.nav-logo:hover {
+    cursor: pointer;
+}
+
 .nav-logo:after {
     content: "";
     height: 2rem;
@@ -390,14 +394,20 @@ h1:before {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    background-color: #ece8e1;
     height: 100%;
     width: 25%;
 }
 
 .ability-pic {
+    filter: brightness(12%);
     width: auto;
     height: 130px;
+}
+
+#toxic-screen-pic {
+    margin-top: 10px;
+    margin-left: .47px;
 }
 
 .ability-header {

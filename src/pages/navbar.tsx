@@ -10,10 +10,10 @@ const NavBar: React.FunctionComponent<IPage> = props => {
         <div className='navbar'>
             <ul className='nav-buttons'>
                 <li className='nav-logo'>
-                    <a href='/'>
+                    <div onClick={() => history.push('/')}>
                         <img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAATlBMVEUAAAD+/v7+/v7+/v7+/v7+/v7////+/v7+/v7+/v7////////+/v7+/v7+/v7+/v7+/v7+/v7+/v7////7+/v+/v7+/v7+/v7+/v7/////XD+bAAAAGXRSTlMA3Pw4SnVF8+3QEAqEK7WpUiGmIlMst1Qb94EzkwAAALZJREFUSMftkkE
                 SgjAQBANKRI1BVNT9/0f1NgnD7t6p9JGqJjWdhEbjkILLEGulf3lG7I+1IqebbcyjrBXpLpZxPQsrki3lIVuKJGO6bCtIwNMVBQl4uqIgAU3XFcnKdEORpEw3lP7O0x0FCTDdUJCAp7OyCMj1dBBDxSQgldPBW2mPBJiu3dlzFEowl9+WlUB/pJM/ymutEwwdGP5Vv+xwAsZNwHgJGD8B4ydg9p+gcKbQaJT8AL5WJzJ+xEFZAAAAAElFTkSuQmCC' alt='val logo' />
-                    </a>
+                    </div>
                 </li>
                 <li>
                     <div className='nav-dropdown'
@@ -26,16 +26,16 @@ const NavBar: React.FunctionComponent<IPage> = props => {
                             <p className='map-select' onClick={(event: React.MouseEvent<HTMLElement>) => history.push('split')}>SPLIT</p>
                             <p className='map-select' onClick={(event: React.MouseEvent<HTMLElement>) => history.push('ascent')}>ASCENT</p>
                             <p className='map-select' onClick={(event: React.MouseEvent<HTMLElement>) => history.push('icebox')}>ICEBOX</p>
-                            <p className='map-select' onClick={(event: React.MouseEvent<HTMLElement>) => history.push('breeze')}>BRREEZE</p>
+                            <p className='map-select' onClick={(event: React.MouseEvent<HTMLElement>) => history.push('breeze')}>BREEZE</p>
                             <p className='map-select' onClick={(event: React.MouseEvent<HTMLElement>) => history.push('fracture')}>FRACTURE</p>
                         </div>}
                     </div>
                 </li>
-                <a className='nav-about' href='/about'>
+                <p className='nav-about' onClick={() => history.push('/about')}>
                     <div className='nav-about-text'>
                         About
                     </div>
-                </a>
+                </p>
             </ul>
         </div>
 

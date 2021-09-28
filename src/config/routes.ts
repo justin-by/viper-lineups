@@ -2,6 +2,7 @@ import IRoute from '../interfaces/route';
 import AboutPage from '../pages/about';
 import HomePage from '../pages/home';
 
+
 const routes: IRoute[] = [
     {
         path: '/',
@@ -16,8 +17,8 @@ const routes: IRoute[] = [
         exact: true
     },
     {
-        path: '/about/:number',
-        name: 'About Page',
+        path: '/bind',
+        name: 'Bind Page',
         component: AboutPage,
         exact: true
     },

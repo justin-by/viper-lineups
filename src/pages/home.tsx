@@ -93,7 +93,7 @@ const HomePage: React.FunctionComponent<IPage> = props => {
 
                             <div className='ability-box'>
                                 <div className='ability-pic-container'>
-                                    <img src={toxicScreen} className='ability-pic' />
+                                    <img src={toxicScreen} className='ability-pic' id='toxic-screen-pic' />
                                 </div>
                                 <div className='wrapper'>
                                     <div className='ability-header'>
