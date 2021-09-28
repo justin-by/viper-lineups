@@ -47,8 +47,12 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                             <div className='corner-video-container'>
                                 <video className='corner-video' id='myVideo' src='https://i.imgur.com/LbscBPk.mp4' loop autoPlay muted />
                             </div>
-
                         </div>
+
+                        <div id='corner-triangle'>
+                            
+                        </div>
+
                         <div className='abilities-container'>
 
                             <div className='ability-box'>
