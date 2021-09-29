@@ -15,6 +15,9 @@ const BindPage: React.FunctionComponent<IPage> = props => {
 
             <div className='lineups-background'>
                 <div className='lineups-left-container'>
+                    <div>
+                        
+                    </div>
                 </div>
                 <div className='lineups-wrapper'>
                     <div className='lineups-center-map-header'>
