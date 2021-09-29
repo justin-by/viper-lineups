@@ -4,9 +4,8 @@ import IPage from '../interfaces/page';
 
 import './bind.css'
 
-import { Link, RouteComponentProps, withRouter } from 'react-router-dom';
 
-const BindPage: React.FunctionComponent<IPage & RouteComponentProps<any>> = props => {
+const BindPage: React.FunctionComponent<IPage> = props => {
 
 
 
@@ -34,4 +33,4 @@ const BindPage: React.FunctionComponent<IPage & RouteComponentProps<any>> = prop
     );
 }
 
-export default withRouter(BindPage);
+export default (BindPage);
