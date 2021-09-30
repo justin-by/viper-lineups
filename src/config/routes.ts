@@ -1,7 +1,7 @@
 import IRoute from '../interfaces/route';
 import AboutPage from '../pages/about';
 import HomePage from '../pages/home';
-import BindPage from '../pages/bind'
+import MapPage from '../pages/map'
 
 
 const routes: IRoute[] = [
@@ -20,13 +20,13 @@ const routes: IRoute[] = [
     {
         path: '/bind',
         name: 'Bind Page',
-        component: BindPage,
+        component: MapPage,
         exact: true
     },
     {
         path: '/icebox',
         name: 'Icebox Page',
-        component: BindPage,
+        component: MapPage,
         exact: true
     },
 ]

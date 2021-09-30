@@ -32,17 +32,10 @@
 .lineups-center-map-header {
     width: 100%;
     height: 13%;
-    background-image: url('../images/icebox-banner.png');
     background-position: 0% 60%;
     box-shadow: inset 3px 30px 60px #000;
 }
 
-/* .lineups-center-map-shadow {
-    background: linear-gradient(
-180deg,transparent 40%,rgba(0,0,0,.815));
-    height: 100%;
-    width: 100%;
-} */
 
 .lineups-header-text-wrapper {
     border-left: #ccc 1px solid;
@@ -157,14 +150,39 @@
     background-position: 50%;
     box-shadow: 10px 10px 32px 0 rgb(0 0 0 / 59%);
     z-index: 2;
+    animation: fadein 3s;
 }
 
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
 .lineup-select {
+    position: relative;
     margin: 15px auto;
     width: 90%;
     height: 150px;
     background-image: url('../images/stroke.png');
+    cursor: pointer;
+
+    left: -450px;
+    -webkit-animation: slide 1.8s forwards;
+    -webkit-animation-delay: .6s;
+    animation: slide 1.8s forwards;
+    animation-delay: .6s;
 }
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
+
 
 .lineup-select-text-wrapper {
     display: inline-block;
