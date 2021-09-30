@@ -4,6 +4,7 @@ import NavBar from './navbar';
 import IPage from '../interfaces/page';
 
 import astairstand from '../images/iceboxlineups/astairstand.png'
+import astairaim from '../images/iceboxlineups/astairaim.png'
 
 import './bind.css'
 
@@ -23,15 +24,18 @@ const BindPage: React.FunctionComponent<IPage> = props => {
                     <div className='lineup-select'>
                         <div className='lineup-select-text-wrapper'>
                             <div className='lineup-select-title'>
-                                A SITE FROM RAMP
+                                A SITE FROM STAIRS
                             </div>
                             <div className='lineup-select-desc'>
-                                This lineup allows Viper to safely play for time by hiding behind A Ramp.
+                                This lineup allows Viper to play for lineups by sitting besides A Stairs. This position allows Viper to quickly re-enter site.
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className='lineups-wrapper'>
+                    <div className='lineups-background-text'>
+                        ICEBOX
+                    </div>
 
                     <div className='lineups-center-map-header'>
 
@@ -67,7 +71,9 @@ const BindPage: React.FunctionComponent<IPage> = props => {
                         <div className='lineup-step-image' style={{
                             backgroundImage: `url(${astairstand})`
                         }} />
-                        <div className='lineup-step-image' />
+                        <div className='lineup-step-image' style={{
+                            backgroundImage: `url(${astairaim})`
+                        }}/>
                     </div>
                 </div>
 
