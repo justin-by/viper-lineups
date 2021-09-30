@@ -14,6 +14,21 @@ import './home.css'
 
 const HomePage: React.FunctionComponent<IPage> = props => {
 
+    const icebox = {
+        map: 'ICEBOX',
+        region: 'RUSSIA',
+        lineups: [
+            {
+                title: 'A SITE FROM RAMP',
+                desc: 'This lineup allows Viper to safely play for time by hiding behind A Ramp.',
+                shortDesc: 'This lineup allows Viper to play for lineups by sitting besides A Stairs. This position allows Viper to quickly re-enter site.',
+                video: 'YmT5g1QgVns',
+                standImage: 'https://i.imgur.com/nfFxmKP.png',
+                aimImage: 'https://i.imgur.com/MSFhVE0.png'
+            },
+        ]
+    }
+
     return (
         <>
             <NavBar name={'NavBar'} />
