@@ -29,6 +29,36 @@ const routes: IRoute[] = [
         component: MapPage,
         exact: true
     },
+    {
+        path: '/haven',
+        name: 'Haven Page',
+        component: MapPage,
+        exact: true
+    },
+    {
+        path: '/split',
+        name: 'Split Page',
+        component: MapPage,
+        exact: true
+    },
+    {
+        path: '/ascent',
+        name: 'Ascent Page',
+        component: MapPage,
+        exact: true
+    },
+    {
+        path: '/breeze',
+        name: 'Breeze Page',
+        component: MapPage,
+        exact: true
+    },
+    {
+        path: '/fracture',
+        name: 'Fracture Page',
+        component: MapPage,
+        exact: true
+    },
 ]
 
 export default routes;
