@@ -247,6 +247,50 @@ const MapPage: React.FunctionComponent<IPage> = props => {
         ]
     }
 
+    const breeze = {
+        map: 'BREEZE',
+        region: 'ATLANTIC OCEAN',
+        mapImage: 'https://i.imgur.com/5KjR8hE.png',
+        lineups: [
+            {
+                id: 1,
+                title: 'A SITE FROM CAVE',
+                desc: 'Position at the corner ontop of the boulders. Aim at the big gap indicated in the second image. This lineup seems difficult but it gets much easier the more you practice.',
+                shortDesc: 'Standard lineup used to cover A Site from outside cave',
+                video: 'zpBtBDHAF9Q',
+                standImage: 'https://i.imgur.com/SKSoMAV.png',
+                aimImage: 'https://i.imgur.com/qplnqGk.png'
+            },
+            {
+                id: 2,
+                title: 'A SITE FROM CAVE (MIDDLE)',
+                desc: "Position at the corner ontop of the boulders. There are two similar leaves sticking out, aim at the tip of the first one. This lineup is similar to the default lineup but will cover the spot in between the two pyramids.",
+                shortDesc: 'Variation of the A Site Default lineup to cover in between the two pyramids on site',
+                video: 'G8ekMvRGUTY',
+                standImage: 'https://i.imgur.com/SKSoMAV.png',
+                aimImage: 'https://i.imgur.com/3aanUDu.png'
+            },
+            {
+                id: 3,
+                title: 'B SITE FROM OUTSIDE MAIN',
+                desc: 'Align yourself at the wall where the pointy mark is. Position the gas meter count above the cannon. This lineup is very easy but can be exposed to enemies flanking.',
+                shortDesc: 'This standard lineup covers default on B Site',
+                video: '4NZWIJVrvw8',
+                standImage: 'https://i.imgur.com/x8iqmJR.png',
+                aimImage: 'https://i.imgur.com/0MwzwZR.png'
+            },
+            {
+                id: 4,
+                title: 'B SITE FROM SPAWN',
+                desc: "Requires jump throw! Position yourself against the wall at the center of the white bricks. Align the top-left corner of the gas meter bar with the top-left corner of the brick wall.",
+                shortDesc: 'This lineup is far away from site but provides protection against enemies flanking',
+                video: 'OtmaYBDjEDc',
+                standImage: 'https://i.imgur.com/aU0MoLx.png',
+                aimImage: 'https://i.imgur.com/b2MWivA.png'
+            },
+        ]
+    }
+
 
 
 
@@ -265,6 +309,8 @@ const MapPage: React.FunctionComponent<IPage> = props => {
             setMapInfo(split)
         } else if (window.location.pathname === '/ascent') {
             setMapInfo(ascent)
+        } else if (window.location.pathname === '/breeze') {
+            setMapInfo(breeze)
         }
     }, [mapInfo])
 
