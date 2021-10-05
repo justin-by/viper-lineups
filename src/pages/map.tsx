@@ -161,44 +161,44 @@ const MapPage: React.FunctionComponent<IPage> = props => {
 
     const split = {
         map: 'SPLIT',
-        region: 'BHUTAN',
-        mapImage: 'https://i.imgur.com/7dBtv1T.png',
+        region: 'JAPAN',
+        mapImage: 'https://i.imgur.com/tBXz3MG.png',
         lineups: [
             {
                 id: 1,
-                title: 'A SITE FROM LONG',
-                desc: 'Because of this cubby in A Long, Viper is given protection from anyone pushing from site. The only angle Viper has to worry about is flank and A Short. Stand ontop of the sandbags in the first picture and aim on the first column in the second picture.',
-                shortDesc: 'Standard lineup in which Viper is able to buy time from A Long.',
-                video: 'Tei6dmbtJMI',
-                standImage: 'https://i.imgur.com/5QVrANl.png',
-                aimImage: 'https://i.imgur.com/E9202s4.png'
+                title: 'A SITE FROM MAIN',
+                desc: 'Align yourself against the wall at the center of the right yellow beam. Position the gas meter count with the center of the metal colum bar. ',
+                shortDesc: 'Standard lineup that allows Viper to place snike bots on A Site Default',
+                video: 'zedcHWStJ0g',
+                standImage: 'https://i.imgur.com/DaPAA3n.png',
+                aimImage: 'https://i.imgur.com/sTSuGBS.png'
             },
             {
                 id: 2,
-                title: 'B SITE FROM SPAWN',
-                desc: "This lineup is the most protective as it's used far away from the bomb site. After shooting both snake bites, run to mid window and hold bomb. Run into the corner with the pot in attacker spawn and shoot at the top of the golden bell. ",
-                shortDesc: 'Although rarely used, this lineup can be used if spike is planted in the center of B Site.',
-                video: 'quISQK3Yg3U',
-                standImage: 'https://i.imgur.com/3fSDRGd.png',
-                aimImage: 'https://i.imgur.com/BA31UjZ.png'
+                title: 'A SITE FROM MAIN (SCREEN)',
+                desc: "Stand against the walls ontop of the flower plant in the corner. Position the bottom line/dot of Poison Cloud to be in the center of the two blue lines in the background and ontop of the metal bar at the bottom. ",
+                shortDesc: 'This lineup is used to cover behind the screen on A Site',
+                video: '5cQ7wrVJgnw',
+                standImage: 'https://i.imgur.com/dPUHPGH.png',
+                aimImage: 'https://i.imgur.com/fTrriTO.png'
             },
             {
                 id: 3,
-                title: 'C SITE FROM LONG',
-                desc: 'Many Viper lineups are used in C Long while this lineup provides a bit more protection by positioning outside of C Long. This also allows Viper to rotate to garage after shooting both Snike Bites for retake. Run to the item on the floor, against the wall as seen in the first picture. Then align the left side of the center line under the gas meter with the tip of the branch.',
-                shortDesc: 'This lineup is used to buy time from outside C Long.',
-                video: 'QGyGl9CXwY0',
-                standImage: 'https://i.imgur.com/4niT5e6.png',
-                aimImage: 'https://i.imgur.com/nePtP3W.png'
+                title: 'B SITE FROM MAIN',
+                desc: 'Position against the wall at the first metal column from the right. Aim at the bottom left corner of the L-shaped golden pipes.',
+                shortDesc: 'Standard lineup to hold default on B Site',
+                video: 'WUzKPUk3UMo',
+                standImage: 'https://i.imgur.com/IcUuMqn.png',
+                aimImage: 'https://i.imgur.com/AOdvxP6.png'
             },
             {
                 id: 4,
-                title: 'C SITE FROM MID',
-                desc: 'The strength of this lineup is the ability for Viper to play post plant away from the expected and popular spots. Enemies will usually expect Viper to be positioned near C Long, but Viper can use this spot to avoid being pushed. Sit ontop of the corner of the bricks and align the gas meter bar to form a triangle.',
-                shortDesc: 'Unexpected and unique lineup that will catch people off guard.',
-                video: 'LJodRyQ0UuQ',
-                standImage: 'https://i.imgur.com/YcU9Q7e.png',
-                aimImage: 'https://i.imgur.com/87Avvlq.png'
+                title: 'B SITE FROM HEAVEN',
+                desc: "This lineup required control of B Heaven, but is strong especially in 1v1 scenarios. Align yourself at the center of the right metallic beam and aim at the center of the horizontal beam right before it meets the wall.",
+                shortDesc: 'Unexpected lineup used to hold default from B Heaven',
+                video: 'o-dN7E76D-U',
+                standImage: 'https://i.imgur.com/fBT8nqO.png',
+                aimImage: 'https://i.imgur.com/3dCm3Ga.png'
             },
         ]
     }
@@ -217,6 +217,8 @@ const MapPage: React.FunctionComponent<IPage> = props => {
             setMapInfo(bind)
         } else if (window.location.pathname === '/haven') {
             setMapInfo(haven)
+        } else if (window.location.pathname === '/split') {
+            setMapInfo(split)
         }
     }, [mapInfo])
 
