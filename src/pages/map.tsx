@@ -291,6 +291,50 @@ const MapPage: React.FunctionComponent<IPage> = props => {
         ]
     }
 
+    const fracture = {
+        map: 'FRACTURE',
+        region: 'USA',
+        mapImage: 'https://i.imgur.com/jR9u5Qm.png',
+        lineups: [
+            {
+                id: 1,
+                title: 'A SITE FROM DISH',
+                desc: 'Align yourself at the line ontop of the left boulders on the image. Aim at the center of the metal column.',
+                shortDesc: 'This lineup allows Viper to control default on A Site from Attacker Side Bridge.',
+                video: 'cGQqwgYb5xs',
+                standImage: 'https://i.imgur.com/aDeQ6lY.png',
+                aimImage: 'https://i.imgur.com/klYEZHC.png'
+            },
+            {
+                id: 2,
+                title: 'A SITE FROM ROPE',
+                desc: "Position at the corner line right besides door. Align the bottom-right corner of the gas meter bar to the bottom-right corner on the metal roof.",
+                shortDesc: 'This lineup allows Viper to play A Site from Rope on Attacker Side Spawn',
+                video: 'CaNF3zXl41Q',
+                standImage: 'https://i.imgur.com/DGlGV1V.png',
+                aimImage: 'https://i.imgur.com/Ky3OhRn.png'
+            },
+            {
+                id: 3,
+                title: 'B SITE FROM ARCADE',
+                desc: 'Position at the corner ontop of the plant and aim at the big gap below the second leaf from the left.',
+                shortDesc: 'This lineup allows Viper to play for B Site at Arcade on Attacker Side Bridge.',
+                video: 'tFdgcum-PwI',
+                standImage: 'https://i.imgur.com/FsgH3qt.png',
+                aimImage: 'https://i.imgur.com/fNYcPjv.png'
+            },
+            {
+                id: 4,
+                title: 'B SITE FROM SPAWN',
+                desc: "Position against the wall at the line. Align the top edge of the Snake Bite ability icon with the metal edge sticking out from the top of the wall.",
+                shortDesc: 'This lineup is used from Tree to cover B Site from Attacker Side Spawn.',
+                video: 'fN6fkditAas',
+                standImage: 'https://i.imgur.com/s6K2Qur.png',
+                aimImage: 'https://i.imgur.com/PafjzbC.png'
+            },
+        ]
+    }
+
 
 
 
@@ -311,6 +355,8 @@ const MapPage: React.FunctionComponent<IPage> = props => {
             setMapInfo(ascent)
         } else if (window.location.pathname === '/breeze') {
             setMapInfo(breeze)
+        } else if (window.location.pathname === '/fracture') {
+            setMapInfo(fracture)
         }
     }, [mapInfo])
 
