@@ -14,6 +14,7 @@ body {
 
 .navbar {
     position: relative;
+    display: block;
     width: 100%;
     height: 80px;
     background-color: #1f2326;
@@ -181,6 +182,7 @@ li, ul {
     text-align: center;
     font-family: "Tungsten-Bold",sans-serif;
     color: #eee4e4;
+    
 }
 
 .middle-home-box {
@@ -266,7 +268,7 @@ h1:before {
     overflow-y: hidden;
     width: auto;
     height: auto;
-    bottom: 11rem;
+    bottom: 8rem;
     height: 700px;
     z-index: 10;
 }
@@ -299,7 +301,7 @@ h1:before {
 .flip-side-viper-text {
     position: absolute;
     font-size: 12rem;
-    bottom: 20.3rem;
+    bottom: 18.3rem;
     transform: rotate(270deg);
     font-family: "DrukWide";
     color: transparent;
@@ -315,7 +317,7 @@ h1:before {
     }
   
     to {
-      bottom: 20.3rem;
+      bottom: 18.3rem;
     }
   }
 
@@ -379,7 +381,7 @@ h1:before {
     flex-wrap: wrap;
     width: 58.5%;
     height: 317px;
-    bottom: 51px;
+    bottom: 19px;
     left:797px;
     background-color: #0f1923;
     z-index: 11;
