@@ -508,7 +508,7 @@ h1:before {
 
 
 /* IPHONE X RESPONSIVE */
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 600px) {
     .left-home-box {
         display: none;
     }
@@ -549,9 +549,19 @@ h1:before {
     .side-viper-text {
         display: none;
     }
+    .flip-side-viper-text {
+        display: none;
+    }
     .home-background-text {
         display: none;
     }
+    .viper-image {
+        display: none;
+    }
+    .abilities-container {
+        display: none;
+    }
+
 }
 
 
