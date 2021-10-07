@@ -344,27 +344,24 @@ const MapPage: React.FunctionComponent<IPage> = props => {
     useEffect(() => {
         if (window.location.pathname === '/icebox') {
             setMapInfo(icebox)
-            setCurrentLineup(icebox.lineups[0])
         } else if (window.location.pathname === '/bind') {
             setMapInfo(bind)
-            setCurrentLineup(bind.lineups[0])
         } else if (window.location.pathname === '/haven') {
             setMapInfo(haven)
-            setCurrentLineup(haven.lineups[0])
         } else if (window.location.pathname === '/split') {
             setMapInfo(split)
-            setCurrentLineup(split.lineups[0])
         } else if (window.location.pathname === '/ascent') {
             setMapInfo(ascent)
-            setCurrentLineup(ascent.lineups[0])
         } else if (window.location.pathname === '/breeze') {
             setMapInfo(breeze)
-            setCurrentLineup(breeze.lineups[0])
         } else if (window.location.pathname === '/fracture') {
             setMapInfo(fracture)
-            setCurrentLineup(fracture.lineups[0])
         }
-    }, [mapInfo])
+    }, [])
+
+    useEffect(() => {
+        setCurrentLineup(mapInfo.lineups[0])
+    },[mapInfo])
 
     return (
         <>
@@ -374,8 +371,9 @@ const MapPage: React.FunctionComponent<IPage> = props => {
                 <div className='lineups-left-container'>
                     {mapInfo && mapInfo.lineups.map(lineup => (
 
-                        <div className='lineup-select' onClick={() =>
+                        <div className='lineup-select' onClick={() => {
                             setCurrentLineup(lineup)
+                        }
                         }>
                             <div className='lineup-select-text-wrapper'>
                                 <div className='lineup-select-title'>
