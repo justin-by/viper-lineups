@@ -2,17 +2,20 @@ import React, { useEffect, useState } from 'react';
 import NavBar from './navbar';
 import IPage from '../interfaces/page';
 
-import { Link, RouteComponentProps, withRouter } from 'react-router-dom';
+import './about.css'
 
-const AboutPage: React.FunctionComponent<IPage & RouteComponentProps<any>> = props => {
-    
+
+const AboutPage: React.FunctionComponent<IPage> = props => {
+
 
 
     return (
         <>
             <NavBar name={'NavBar'} />
+            <div className='about-page-background'>
+            </div>
         </>
     );
 }
 
-export default withRouter(AboutPage);
+export default (AboutPage);

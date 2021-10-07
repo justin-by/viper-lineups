@@ -561,6 +561,13 @@ h1:before {
     .abilities-container {
         display: none;
     }
+    #corner-triangle {
+        display: none;
+    }
+    body, html {
+        height: 100%;
+        overflow: scroll;
+    }
 
 }
 

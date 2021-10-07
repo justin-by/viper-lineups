@@ -1,0 +1,10 @@
+.about-page-background {
+    display: flex;
+    box-sizing: border-box;
+    overflow: visible;
+    flex-grow: 1;
+    height: calc(100vh - 80px);
+    background-image: url('https://i.imgur.com/G3lBL7w.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
