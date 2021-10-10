@@ -239,11 +239,6 @@ li, ul {
     100% { left: 0; }
 }
 
-/* @media only screen and (max-width: 950px) {
-    .viper-title-home {
-        font-size: 3rem;
-    }
-} */
 
 h1:before {
     position: absolute;
@@ -346,6 +341,17 @@ h1:before {
   
     to {
       bottom: 15rem;
+    }
+  }
+
+  @keyframes slide-down-2560 {
+    from {
+      top: -30rem;
+    }
+  
+    to {
+      top: 35rem;
+
     }
   }
 
@@ -557,15 +563,98 @@ h1:before {
 
 
 /* 2560 x 1440 */
-@media only screen and (min-width: 2560px) {
+@media only screen and (min-width: 2559px) {
     .flip-side-viper-text {
         bottom: 51rem;
         animation: 3s slide-up-2560;
     }
 
-    .viper-image {
-        bottom: 42rem;
+    .side-viper-text {
+        top: 35rem;
+        animation: 3s slide-down-2560;
     }
+
+
+    .viper-title-home {
+        font-size: 8rem;
+        left: -600px;
+    }
+
+    .corner-container {
+        width: 650px;
+        height: 850px;
+    }
+
+    .corner-text {
+        font-size: 1.7rem;
+    }
+
+    .corner-video-container {
+        margin-top: 50px;
+    }
+
+    .abilities-container {
+        height: 55%;
+        width: 1300px;
+        margin-left: 645px;
+        bottom: 58.3%;
+    }
+
+    .ability-hotkey {
+        font-size: 1.2rem;
+    }
+
+    .ability-title {
+        font-size: 1.6rem;
+    }
+
+    .ability-desc {
+        font-size: 1.4rem;
+    }
+
+    #corner-triangle {
+        width: 10px;
+        left: 640px;
+        bottom: 490px;
+    }
+
+    .viper-image {
+        width: auto;
+        height: 920px;
+        bottom: 28rem;
+    }
+
+    .home-background-text {
+        top: 80px;
+        font-size: 23rem;
+    }
+
+    .left-home-box-title {
+        font-size: 3rem;
+    }
+
+    .navbar {
+        height: 120px;
+    }
+
+    .nav-dropdown-button {
+        font-size: 1.4rem;
+    }
+
+    .nav-about {
+        font-size: 1.4rem;
+    }
+
+    .map-select {
+        font-size: 150%;
+        padding: 20px 30px;
+    }
+
+
+
+
+    
+
 
 
 

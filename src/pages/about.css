@@ -103,3 +103,27 @@
       opacity: 1;
     }
   }
+
+
+
+  @media only screen and (min-width: 2560px) { 
+      .about-title {
+          font-size: 4.5rem;
+      }
+
+      .about-message-text {
+          font-size: 1.5rem;
+      }
+
+      .about-credits-text {
+          font-size: 1.5rem;
+      }
+
+      .about-link {
+        font-size: 3.2rem;
+      }
+
+      .about-icon-links {
+          margin-bottom: 20%;
+      }
+  }
