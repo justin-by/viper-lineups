@@ -142,7 +142,8 @@ li, ul {
 .home-background-text {
     pointer-events: none;
     color: transparent;
-    position: absolute;
+    position: fixed;
+    display:inline;
     top: 20px;
     font-size: 18rem;
     font-family: "ValorantFont",sans-serif;
@@ -187,13 +188,13 @@ li, ul {
 
 .middle-home-box {
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     width: 30%;
     height: 100%;
     border-right: 1px solid #eee;
-    overflow: hidden;
 }
 
 /* @media only screen and (max-width: 1300px) {
@@ -221,6 +222,11 @@ li, ul {
     -webkit-animation-delay: 1s;
     animation: slide 1.5s forwards;
     animation-delay: 1s;
+
+}
+
+.title-hider {
+    overflow: hidden;
 }
 
 
@@ -311,6 +317,8 @@ h1:before {
     animation: 3s slide-up;
 }
 
+
+
 @keyframes slide-up {
     from {
       bottom: -30rem;
@@ -320,6 +328,28 @@ h1:before {
       bottom: 18.3rem;
     }
   }
+
+  @keyframes slide-up-2560{
+    from {
+      bottom: -30rem;
+    }
+  
+    to {
+      bottom: 51rem;
+    }
+  }
+
+  @keyframes slide-up-1440{
+    from {
+      bottom: -30rem;
+    }
+  
+    to {
+      bottom: 15rem;
+    }
+  }
+
+
 
 
 
@@ -334,8 +364,6 @@ h1:before {
 }
 
 .corner-container {
-    margin-top: 20px;
-    margin-left: 20px;
     width: 400px;
     height: 600px;
     background-image: url('../images/stroke.png');
@@ -366,25 +394,29 @@ h1:before {
 }
 
 #corner-triangle {
-    position: absolute;
-    left: 797px;
-    top: 565px;
+    position: relative;
+    width: 2px;
+    left: 397px;
+    bottom: 350px;
     border-bottom: 40px solid #0f1923;
     border-right: 40px solid transparent;
+    z-index: 20;
 }
 
 .abilities-container {
-    position: absolute;
+    position: relative;
+    margin-left: 400px;
+    bottom: 58.6%;
+    overflow-x: visible;
+    width: 1100px;
+    height: 53%;
     justify-content: space-around;
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    width: 58.5%;
-    height: 317px;
-    bottom: 19px;
-    left:797px;
+
+    z-index: 20;
     background-color: #0f1923;
-    z-index: 11;
 }
 
 .ability-box {
@@ -498,12 +530,48 @@ h1:before {
 
 
 
+@media only screen and (max-width: 1440px) {
+.abilities-container {
+    width: 600px;
+    }
+
+.ability-pic-container {
+    display: none;
+    }
+
+.ability-desc {
+    font-size: .9rem;
+    }
+
+.viper-image {
+    bottom: 4.5rem;
+    }
+
+.flip-side-viper-text {
+    bottom: 15rem;
+    animation: 3s slide-up-1440;
+    }
+
+}
+
+
+
+/* 2560 x 1440 */
+@media only screen and (min-width: 2560px) {
+    .flip-side-viper-text {
+        bottom: 51rem;
+        animation: 3s slide-up-2560;
+    }
+
+    .viper-image {
+        bottom: 42rem;
+    }
 
 
 
 
-
-
+    
+}
 
 
 

@@ -124,13 +124,14 @@
 .lineup-video-container {
     margin-top: 40px;
     z-index: 2;
-
+    width: 690px;
+    height: 390px;
     animation: fadein 3s;
 }
 
 .lineup-video {
     position: relative;
-    width: 50%;
+
     margin: 0 auto;
     z-index: 2;
 }
@@ -148,7 +149,7 @@
     line-height: 25rem;
     user-select:none;
     pointer-events: none;
-    z-index: 0;
+    z-index: 1;
 }
 
 
@@ -230,4 +231,12 @@
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+
+@media only screen and (max-width: 1440px) { 
+    .lineup-video-container {
+        width: 570px;
+        height: 320px;
+        }
 }

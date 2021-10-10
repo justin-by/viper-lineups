@@ -35,9 +35,11 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                         </h1>
                     </div>
                     <div className='middle-home-box'>
-                        <h1 className='viper-title-home'>
-                            VIPER
-                        </h1>
+                        <div className='title-hider'>
+                            <h1 className='viper-title-home'>
+                                VIPER
+                            </h1>
+                        </div>
                         <div className='corner-container'>
                             <p className='corner-text'>
                                 Viper is a brilliant scientist coming from the United States.
@@ -47,98 +49,96 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                             <div className='corner-video-container'>
                                 <video className='corner-video' id='myVideo' src='https://i.imgur.com/LbscBPk.mp4' loop autoPlay muted />
                             </div>
+                            <div id='corner-triangle'></div>
+                            <div className='abilities-container'>
+
+                                <div className='ability-box'>
+                                    <div className='ability-pic-container'>
+                                        <img src={snakeBite} className='ability-pic' />
+                                    </div>
+                                    <div className='wrapper'>
+                                        <div className='ability-header'>
+                                            <span className='ability-hotkey'>
+                                                C
+                                            </span>
+                                            <span className='ability-title'>
+                                                SNAKE BITE
+                                            </span>
+                                        </div>
+                                        <p className='ability-desc'>
+                                            EQUIP a chemical launcher. FIRE to launch a canister that shatters upon hitting the floor,
+                                            creating a lingering chemical zone that damages and applies Vulnerable.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div className='ability-box'>
+                                    <div className='ability-pic-container'>
+                                        <img src={poisonCloud} className='ability-pic' />
+                                    </div>
+                                    <div className='wrapper'>
+                                        <div className='ability-header'>
+                                            <span className='ability-hotkey'>
+                                                Q
+                                            </span>
+                                            <span className='ability-title'>
+                                                POISON CLOUD
+                                            </span>
+                                        </div>
+                                        <p className='ability-desc'>
+                                            EQUIP a gas emitter. FIRE to throw the emitter that perpetually remains throughout the round.
+                                            RE-USE the ability to create a toxic gas cloud at the cost of fuel.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div className='ability-box'>
+                                    <div className='ability-pic-container'>
+                                        <img src={toxicScreen} className='ability-pic' id='toxic-screen-pic' />
+                                    </div>
+                                    <div className='wrapper'>
+                                        <div className='ability-header'>
+                                            <span className='ability-hotkey'>
+                                                E
+                                            </span>
+                                            <span className='ability-title'>
+                                                TOXIC SCREEN
+                                            </span>
+                                        </div>
+                                        <p className='ability-desc'>
+                                            EQUIP a gas emitter launcher. FIRE to deploy a long line of gas emitters.
+                                            RE-USE the ability to create a tall wall of toxic gas at the cost of fuel.
+                                            This ability can be RE-USED more than once.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div className='ability-box'>
+                                    <div className='ability-pic-container'>
+                                        <img src={viperPit} className='ability-pic' />
+                                    </div>
+                                    <div className='wrapper'>
+                                        <div className='ability-header'>
+                                            <span className='ability-hotkey'>
+                                                X
+                                            </span>
+                                            <span className='ability-title'>
+                                                VIPER'S PIT
+                                            </span>
+                                        </div>
+                                        <p className='ability-desc'>
+                                            EQUIP a chemical sprayer. FIRE to spray a chemical cloud in all directions around Viper, creating a
+                                            large cloud that reduces vision range of players and maximum health of enemies.
+                                        </p>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
                         </div>
 
-                        <div id='corner-triangle'>
-                            
-                        </div>
-
-                        <div className='abilities-container'>
-
-                            <div className='ability-box'>
-                                <div className='ability-pic-container'>
-                                    <img src={snakeBite} className='ability-pic' />
-                                </div>
-                                <div className='wrapper'>
-                                    <div className='ability-header'>
-                                        <span className='ability-hotkey'>
-                                            C
-                                        </span>
-                                        <span className='ability-title'>
-                                            SNAKE BITE
-                                        </span>
-                                    </div>
-                                    <p className='ability-desc'>
-                                        EQUIP a chemical launcher. FIRE to launch a canister that shatters upon hitting the floor,
-                                        creating a lingering chemical zone that damages and applies Vulnerable.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div className='ability-box'>
-                                <div className='ability-pic-container'>
-                                    <img src={poisonCloud} className='ability-pic' />
-                                </div>
-                                <div className='wrapper'>
-                                    <div className='ability-header'>
-                                        <span className='ability-hotkey'>
-                                            Q
-                                        </span>
-                                        <span className='ability-title'>
-                                            POISON CLOUD
-                                        </span>
-                                    </div>
-                                    <p className='ability-desc'>
-                                        EQUIP a gas emitter. FIRE to throw the emitter that perpetually remains throughout the round.
-                                        RE-USE the ability to create a toxic gas cloud at the cost of fuel.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div className='ability-box'>
-                                <div className='ability-pic-container'>
-                                    <img src={toxicScreen} className='ability-pic' id='toxic-screen-pic' />
-                                </div>
-                                <div className='wrapper'>
-                                    <div className='ability-header'>
-                                        <span className='ability-hotkey'>
-                                            E
-                                        </span>
-                                        <span className='ability-title'>
-                                            TOXIC SCREEN
-                                        </span>
-                                    </div>
-                                    <p className='ability-desc'>
-                                        EQUIP a gas emitter launcher. FIRE to deploy a long line of gas emitters.
-                                        RE-USE the ability to create a tall wall of toxic gas at the cost of fuel.
-                                        This ability can be RE-USED more than once.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div className='ability-box'>
-                                <div className='ability-pic-container'>
-                                    <img src={viperPit} className='ability-pic' />
-                                </div>
-                                <div className='wrapper'>
-                                    <div className='ability-header'>
-                                        <span className='ability-hotkey'>
-                                            X
-                                        </span>
-                                        <span className='ability-title'>
-                                            VIPER'S PIT
-                                        </span>
-                                    </div>
-                                    <p className='ability-desc'>
-                                        EQUIP a chemical sprayer. FIRE to spray a chemical cloud in all directions around Viper, creating a
-                                        large cloud that reduces vision range of players and maximum health of enemies.
-                                    </p>
-                                </div>
-                            </div>
-
-
-
-                        </div>
+                    
                     </div>
                     <div className='middle-left-home-box'>
                         <img className='viper-image' alt='viper' src={viperImg}></img>

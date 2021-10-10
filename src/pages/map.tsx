@@ -414,7 +414,7 @@ const MapPage: React.FunctionComponent<IPage> = props => {
                                     {currentLineup.desc}
                                 </p>
                                 <div className='lineup-video-container'>
-                                    <ReactPlayer url={`https://youtu.be/${currentLineup.video}`} loop={true} muted={false} controls={true} className='lineup-video' />
+                                    <ReactPlayer url={`https://youtu.be/${currentLineup.video}`} loop={true} muted={false} controls={true} width='100%' height='100%' className='lineup-video' />
                                 </div>
 
                             </div>
