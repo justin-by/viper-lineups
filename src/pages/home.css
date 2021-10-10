@@ -370,6 +370,8 @@ h1:before {
 }
 
 .corner-container {
+    margin-top: 20px;
+    margin-left: 20px;
     width: 400px;
     height: 600px;
     background-image: url('../images/stroke.png');
