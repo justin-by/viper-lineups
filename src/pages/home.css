@@ -550,7 +550,9 @@ h1:before {
     }
 
 .viper-image {
-    bottom: 4.5rem;
+    width: auto;
+    height: 650px;
+    bottom: 17.5rem;
     }
 
 .flip-side-viper-text {
