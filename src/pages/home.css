@@ -330,7 +330,7 @@ h1:before {
     }
   
     to {
-      bottom: 51rem;
+      bottom: 45rem;
     }
   }
 
@@ -350,7 +350,7 @@ h1:before {
     }
   
     to {
-      top: 35rem;
+      top: 30rem;
 
     }
   }
@@ -541,7 +541,14 @@ h1:before {
 @media only screen and (max-width: 1440px) {
 .abilities-container {
     width: 600px;
+    margin-left: 349px;
+    bottom: 57%;
     }
+
+#corner-triangle {
+    left: 347px;
+    bottom:280px;
+}
 
 .ability-pic-container {
     display: none;
@@ -554,7 +561,7 @@ h1:before {
 .viper-image {
     width: auto;
     height: 650px;
-    bottom: 17.5rem;
+    bottom: 1.5rem;
     }
 
 .flip-side-viper-text {
@@ -562,19 +569,46 @@ h1:before {
     animation: 3s slide-up-1440;
     }
 
+.corner-container {
+    margin-bottom: 10px;
+    width: 350px;
+    height: 500px;
+}
+
+.corner-video {
+    height: 70%;
+    width: 70%;
+}
+
+.corner-video-container {
+    margin-top: -35px;
+}
+
+.ability-title {
+    font-size: 1.1rem;
+}
+
+.ability-hotkey {
+    font-size: .7rem;
+}
+
+.ability-desc {
+    font-size: .85rem;
+}
+
 }
 
 
 
 /* 2560 x 1440 */
-@media only screen and (min-width: 2559px) {
+@media only screen and (min-width: 2560px) {
     .flip-side-viper-text {
-        bottom: 51rem;
+        bottom: 45rem;
         animation: 3s slide-up-2560;
     }
 
     .side-viper-text {
-        top: 35rem;
+        top: 30rem;
         animation: 3s slide-down-2560;
     }
 
@@ -625,7 +659,7 @@ h1:before {
     .viper-image {
         width: auto;
         height: 920px;
-        bottom: 28rem;
+        bottom: 20rem;
     }
 
     .home-background-text {
