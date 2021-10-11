@@ -17,8 +17,8 @@ const AboutPage: React.FunctionComponent<IPage> = props => {
                     <div className='about-message'>
                         <h2 className='about-title'>Message</h2>
                         <p className='about-message-text thank-message'>Thank you for visiting my web page!</p>
-                        <p className='about-message-text'>I've had an amazing time developing this website and I'm glad to be able to share it. Valorant is my ultimate favorite game and I've always wanted
-                            to create a project based on an aspect of it. At the moment this website only features Viper's post plants for default spots but I plan on adding additional lineups in the future. </p>
+                        <p className='about-message-text'>I've had an amazing time developing this website and I'm happy to be able to share it. I personally play a lot of Valorant and have always wanted to include Valorant in 
+                        one of my projects. At the moment this website only features Viper's post plants for default spots but I plan on adding additional lineups in the future. </p>
                     </div>
                     <div className='about-icon-links'>
                         <a href='https://github.com/justin-by' target="_blank" rel="noopener noreferrer">
