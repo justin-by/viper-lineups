@@ -302,7 +302,7 @@ h1:before {
 .flip-side-viper-text {
     position: absolute;
     font-size: 12rem;
-    bottom: 18.3rem;
+    bottom: 20.3rem;
     transform: rotate(270deg);
     font-family: "DrukWide";
     color: transparent;
@@ -320,7 +320,7 @@ h1:before {
     }
   
     to {
-      bottom: 18.3rem;
+      bottom: 20.3rem;
     }
   }
 
@@ -334,15 +334,6 @@ h1:before {
     }
   }
 
-  @keyframes slide-up-1440{
-    from {
-      bottom: -30rem;
-    }
-  
-    to {
-      bottom: 15rem;
-    }
-  }
 
   @keyframes slide-down-2560 {
     from {
@@ -537,17 +528,16 @@ h1:before {
 
 
 
-
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1600px) {
 .abilities-container {
     width: 600px;
     margin-left: 349px;
-    bottom: 57%;
+    bottom: 57.8%;
     }
 
 #corner-triangle {
     left: 347px;
-    bottom:280px;
+    bottom:290px;
 }
 
 .ability-pic-container {
@@ -561,27 +551,35 @@ h1:before {
 .viper-image {
     width: auto;
     height: 650px;
-    bottom: 1.5rem;
+    bottom: 20%;
     }
 
 .flip-side-viper-text {
-    bottom: 15rem;
-    animation: 3s slide-up-1440;
+    display: none;
     }
+.side-viper-text {
+    display: none;
+}
 
 .corner-container {
     margin-bottom: 10px;
     width: 350px;
-    height: 500px;
+    height: 520px;
+}
+
+.corner-text {
+    font-size: .9rem;
+    padding: 2rem 2rem 2rem;
+    line-height: 2rem;
 }
 
 .corner-video {
     height: 70%;
-    width: 70%;
+    width: 91%;
 }
 
 .corner-video-container {
-    margin-top: -35px;
+    margin-top: -15px;
 }
 
 .ability-title {
@@ -593,11 +591,40 @@ h1:before {
 }
 
 .ability-desc {
-    font-size: .85rem;
+    font-size: .8rem;
+}
+
+.home-background-text {
+    font-size: 16rem;
 }
 
 }
 
+@media only screen and (max-width: 900px) {
+    .abilities-container {
+        display: none;
+    }
+
+    .viper-image {
+        display: none;
+    }
+
+    #corner-triangle {
+        display: none;
+    }
+
+    .middle-left-home-box {
+        display: none;
+    }
+
+    .right-home-box {
+        display: none;
+    }
+
+    .middle-home-box {
+        border-right: none;
+    }
+}
 
 
 /* 2560 x 1440 */
