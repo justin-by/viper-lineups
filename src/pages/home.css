@@ -302,7 +302,7 @@ h1:before {
 .flip-side-viper-text {
     position: absolute;
     font-size: 12rem;
-    bottom: 20.3rem;
+    top: 25rem;
     transform: rotate(270deg);
     font-family: "DrukWide";
     color: transparent;
@@ -316,21 +316,21 @@ h1:before {
 
 @keyframes slide-up {
     from {
-      bottom: -30rem;
+      top: 80rem;
     }
   
     to {
-      bottom: 20.3rem;
+      top: 25rem;
     }
   }
 
   @keyframes slide-up-2560{
     from {
-      bottom: -30rem;
+      top: 85rem;
     }
   
     to {
-      bottom: 45rem;
+      top: 30rem;
     }
   }
 
@@ -630,7 +630,7 @@ h1:before {
 /* 2560 x 1440 */
 @media only screen and (min-width: 2560px) {
     .flip-side-viper-text {
-        bottom: 45rem;
+        top: 30rem;
         animation: 3s slide-up-2560;
     }
 

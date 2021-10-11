@@ -343,7 +343,6 @@ const MapPage: React.FunctionComponent<IPage> = props => {
 
     const [mapInfo, setMapInfo] = useState(bind);
     const [currentLineup, setCurrentLineup] = useState(mapInfo.lineups[0])
-    const [highlightCurrent, setHighlightCurrent] = useState()
 
     useEffect(() => {
         if (window.location.pathname === '/icebox') {
