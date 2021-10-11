@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { BrowserRouter, Route, Switch, RouteComponentProps } from 'react-router-dom';
 import routes from './config/routes';
 

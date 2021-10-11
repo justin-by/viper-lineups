@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import IPage from '../interfaces/page';
 
 import viperImg from '../images/viper1.png'
@@ -54,7 +54,7 @@ const HomePage: React.FunctionComponent<IPage> = props => {
 
                                 <div className='ability-box'>
                                     <div className='ability-pic-container'>
-                                        <img src={snakeBite} className='ability-pic' />
+                                        <img src={snakeBite} alt='snake bite ability' className='ability-pic' />
                                     </div>
                                     <div className='wrapper'>
                                         <div className='ability-header'>
@@ -74,7 +74,7 @@ const HomePage: React.FunctionComponent<IPage> = props => {
 
                                 <div className='ability-box'>
                                     <div className='ability-pic-container'>
-                                        <img src={poisonCloud} className='ability-pic' />
+                                        <img src={poisonCloud} alt='poison cloud ability' className='ability-pic' />
                                     </div>
                                     <div className='wrapper'>
                                         <div className='ability-header'>
@@ -94,7 +94,7 @@ const HomePage: React.FunctionComponent<IPage> = props => {
 
                                 <div className='ability-box'>
                                     <div className='ability-pic-container'>
-                                        <img src={toxicScreen} className='ability-pic' id='toxic-screen-pic' />
+                                        <img src={toxicScreen} alt='toxic screen ability' className='ability-pic' id='toxic-screen-pic' />
                                     </div>
                                     <div className='wrapper'>
                                         <div className='ability-header'>
@@ -115,7 +115,7 @@ const HomePage: React.FunctionComponent<IPage> = props => {
 
                                 <div className='ability-box'>
                                     <div className='ability-pic-container'>
-                                        <img src={viperPit} className='ability-pic' />
+                                        <img src={viperPit} alt='viper pit ability' className='ability-pic' />
                                     </div>
                                     <div className='wrapper'>
                                         <div className='ability-header'>

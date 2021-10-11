@@ -3,6 +3,9 @@ import ReactPlayer from 'react-player'
 import NavBar from './navbar';
 import IPage from '../interfaces/page';
 
+import stroke from '../images/stroke.png'
+import redstroke from '../images/redstroke.png'
+
 
 import './map.css'
 
@@ -67,7 +70,7 @@ const MapPage: React.FunctionComponent<IPage> = props => {
         mapImage: 'https://i.imgur.com/yS2MMVM.png',
         lineups: [
             {
-                id: 1,
+                id: 6,
                 title: 'A SITE FROM SHORT',
                 desc: 'Sit in the brick corner and align the crosshair to the right of the bottom-right edge of the metal roof. This lineup is used from a common spot but provides decent protection from anyone pushing. Tucking into the cubby buys Viper a couple of extra seconds for her to use her lineups.',
                 shortDesc: 'This easy lineup allows Viper to control site while being super nearby.',
@@ -76,7 +79,7 @@ const MapPage: React.FunctionComponent<IPage> = props => {
                 aimImage: 'https://i.imgur.com/ZGjqBdw.png'
             },
             {
-                id: 2,
+                id: 7,
                 title: 'A SITE FROM SHOWER',
                 desc: 'Align yourself at the corner of the smaller wooden box. Position the tip of the poison cloud icon to the bottom of the leaf. This lineup is great for being unexpected and is perfect for being a rotation lineup. This can be used immediately after the A Short lineup, preventing Viper from being caught.',
                 shortDesc: 'This unexpected lineup is used outside of A Showers.',
@@ -85,7 +88,7 @@ const MapPage: React.FunctionComponent<IPage> = props => {
                 aimImage: 'https://i.imgur.com/1YlHykI.png'
             },
             {
-                id: 3,
+                id: 8,
                 title: 'A SITE FROM SPAWN',
                 desc: 'Position at the corner of where the barrels and wall meet. Position the top edge of the last segment line of the gas meter bar to the metal roof corner. Although this lineup is rarely used, it can prove to be very helpful in some situations. This lineup can easily be used if Viper holds defender spawn or is flanking from B site.',
                 shortDesc: "This tricky lineup is used from the enemy's spawnpoint.",
@@ -94,7 +97,7 @@ const MapPage: React.FunctionComponent<IPage> = props => {
                 aimImage: 'https://i.imgur.com/NxJmyUK.png'
             },
             {
-                id: 4,
+                id: 9,
                 title: 'B SITE FROM HOOKAH',
                 desc: "Position at the corner of the box and angle the top-right line of the Health HUD to the top corner of the roof. This is a standard lineup that's very useful for being close to the spike. Viper is able to quickly move into Hookah and easily peek the planted spike. Because this spot is so close to the site, expect that enemies may quickly push you.",
                 shortDesc: "This is a standard lineup that's very useful for being close to the spike.",
@@ -103,7 +106,7 @@ const MapPage: React.FunctionComponent<IPage> = props => {
                 aimImage: 'https://i.imgur.com/WSbcVki.png'
             },
             {
-                id: 5,
+                id: 10,
                 title: 'B SITE FROM LONG',
                 desc: 'Hug the corner of the fountain as shown in the first picture. Then align the top-right line of the Health HUD to the bottom of the camera. This lineup has the perfect amount of distance to protect Viper and allow her to peek the spike.',
                 shortDesc: 'This easy lineup allows Viper to control site while being nearby.',
@@ -120,7 +123,7 @@ const MapPage: React.FunctionComponent<IPage> = props => {
         mapImage: 'https://i.imgur.com/7dBtv1T.png',
         lineups: [
             {
-                id: 1,
+                id: 11,
                 title: 'A SITE FROM LONG',
                 desc: 'Because of this cubby in A Long, Viper is given protection from anyone pushing from site. The only angle Viper has to worry about is flank and A Short. Stand ontop of the sandbags in the first picture and aim on the first column in the second picture.',
                 shortDesc: 'Standard lineup in which Viper is able to buy time from A Long.',
@@ -129,7 +132,7 @@ const MapPage: React.FunctionComponent<IPage> = props => {
                 aimImage: 'https://i.imgur.com/E9202s4.png'
             },
             {
-                id: 2,
+                id: 12,
                 title: 'B SITE FROM SPAWN',
                 desc: "Run into the corner with the pot in attacker spawn and shoot at the top of the golden bell. This lineup is the most protective as it's used far away from the bomb site. After shooting both snake bites, run to mid window and hold the spike.",
                 shortDesc: 'Although rarely used, this lineup can be used if spike is planted in the center of B Site',
@@ -138,7 +141,7 @@ const MapPage: React.FunctionComponent<IPage> = props => {
                 aimImage: 'https://i.imgur.com/BA31UjZ.png'
             },
             {
-                id: 3,
+                id: 13,
                 title: 'C SITE FROM LONG',
                 desc: 'Run to the item on the floor, against the wall as seen in the first picture. Then align the left side of the center line under the gas meter with the tip of the branch. Many Viper lineups are used in C Long while this lineup provides a bit more protection by positioning outside of C Long.',
                 shortDesc: 'This lineup is used to buy time from outside C Long',
@@ -147,7 +150,7 @@ const MapPage: React.FunctionComponent<IPage> = props => {
                 aimImage: 'https://i.imgur.com/nePtP3W.png'
             },
             {
-                id: 4,
+                id: 14,
                 title: 'C SITE FROM MID',
                 desc: 'Sit ontop of the corner of the bricks and align the gas meter bar to form a triangle. The strength of this lineup is the ability for Viper to play post plant away from the expected and popular spots. Enemies will usually expect Viper to be positioned near C Long, but Viper can use this spot to avoid being pushed. ',
                 shortDesc: 'Unexpected and unique lineup that will catch people off guard',
@@ -164,7 +167,7 @@ const MapPage: React.FunctionComponent<IPage> = props => {
         mapImage: 'https://i.imgur.com/tBXz3MG.png',
         lineups: [
             {
-                id: 1,
+                id: 15,
                 title: 'A SITE FROM MAIN',
                 desc: 'Align yourself against the wall at the center of the right yellow beam. Position the gas meter count with the center of the metal colum bar. ',
                 shortDesc: 'Standard lineup that allows Viper to place snike bots on A Site Default',
@@ -173,7 +176,7 @@ const MapPage: React.FunctionComponent<IPage> = props => {
                 aimImage: 'https://i.imgur.com/sTSuGBS.png'
             },
             {
-                id: 2,
+                id: 16,
                 title: 'A SITE FROM MAIN (SCREEN)',
                 desc: "Stand against the walls ontop of the flower plant in the corner. Position the bottom line/dot of Poison Cloud to be in the center of the two blue lines in the background and ontop of the metal bar at the bottom. ",
                 shortDesc: 'This lineup is used to cover behind the screen on A Site',
@@ -182,7 +185,7 @@ const MapPage: React.FunctionComponent<IPage> = props => {
                 aimImage: 'https://i.imgur.com/fTrriTO.png'
             },
             {
-                id: 3,
+                id: 17,
                 title: 'B SITE FROM MAIN',
                 desc: 'Position against the wall at the first metal column from the right. Aim at the bottom left corner of the L-shaped golden pipes.',
                 shortDesc: 'Standard lineup to hold default on B Site',
@@ -191,7 +194,7 @@ const MapPage: React.FunctionComponent<IPage> = props => {
                 aimImage: 'https://i.imgur.com/AOdvxP6.png'
             },
             {
-                id: 4,
+                id: 18,
                 title: 'B SITE FROM HEAVEN',
                 desc: "Align yourself at the center of the right metallic beam and aim at the center of the horizontal beam right before it meets the wall. This lineup requires control of B Heaven, but is strong especially in 1v1 scenarios.",
                 shortDesc: 'Unexpected lineup used to hold default from B Heaven',
@@ -208,7 +211,7 @@ const MapPage: React.FunctionComponent<IPage> = props => {
         mapImage: 'https://i.imgur.com/G3xyT7A.png',
         lineups: [
             {
-                id: 1,
+                id: 19,
                 title: 'A SITE FROM MAIN',
                 desc: 'Align yourself against the center of the bycicle. Aim at where the tip of the flag pole and roof column meet. This lineup provides decent protection as enemies have to push main to stop Viper. ',
                 shortDesc: 'This standard lineup is used to cover A Site Default',
@@ -217,7 +220,7 @@ const MapPage: React.FunctionComponent<IPage> = props => {
                 aimImage: 'https://i.imgur.com/auOBhk2.png'
             },
             {
-                id: 2,
+                id: 20,
                 title: 'A SITE FROM CAT',
                 desc: "Position yourself at the corner of cat and angle the top-right corner of the gas meter bar with the top-right corner of the metal pipe.",
                 shortDesc: 'This lineup can catch enemies off guard by positioning on Cat',
@@ -226,7 +229,7 @@ const MapPage: React.FunctionComponent<IPage> = props => {
                 aimImage: 'https://i.imgur.com/orzpd1D.png'
             },
             {
-                id: 3,
+                id: 21,
                 title: 'B SITE FROM OUTSIDE MAIN',
                 desc: 'Position yourself at the corner of the wooden boxes on the ground. Position the left edge of the health hud line on the small black dot of the wooden roof. This lineup may seem difficult to learn but the spot is easily remembered once you use it.',
                 shortDesc: 'This lineup is very effective by providing a lot of protection and room for Viper to retake site',
@@ -235,7 +238,7 @@ const MapPage: React.FunctionComponent<IPage> = props => {
                 aimImage: 'https://i.imgur.com/uMRRKgt.png'
             },
             {
-                id: 4,
+                id: 22,
                 title: 'B SITE FROM PIZZA',
                 desc: "Position yourself at the corner of Pizza and aim at where the top-left and bottom-right corners of the metal roof meet.",
                 shortDesc: 'This lineup allows Viper to play away from common spots and hold site from Pizza',
@@ -252,7 +255,7 @@ const MapPage: React.FunctionComponent<IPage> = props => {
         mapImage: 'https://i.imgur.com/5KjR8hE.png',
         lineups: [
             {
-                id: 1,
+                id: 23,
                 title: 'A SITE FROM CAVE',
                 desc: 'Position at the corner ontop of the boulders. Aim at the big gap indicated in the second image. This lineup seems difficult but it gets much easier the more you practice.',
                 shortDesc: 'Standard lineup used to cover A Site from outside cave',
@@ -261,7 +264,7 @@ const MapPage: React.FunctionComponent<IPage> = props => {
                 aimImage: 'https://i.imgur.com/qplnqGk.png'
             },
             {
-                id: 2,
+                id: 24,
                 title: 'A SITE FROM CAVE (MIDDLE)',
                 desc: "Position at the corner ontop of the boulders. There are two similar leaves sticking out, aim at the tip of the first one. This lineup is similar to the default lineup but will cover the spot in between the two pyramids.",
                 shortDesc: 'Variation of the A Site Default lineup to cover in between the two pyramids on site',
@@ -270,7 +273,7 @@ const MapPage: React.FunctionComponent<IPage> = props => {
                 aimImage: 'https://i.imgur.com/3aanUDu.png'
             },
             {
-                id: 3,
+                id: 25,
                 title: 'B SITE FROM OUTSIDE MAIN',
                 desc: 'Align yourself at the wall where the pointy mark is. Position the gas meter count above the cannon. This lineup is very easy but can be exposed to enemies flanking.',
                 shortDesc: 'This standard lineup covers default on B Site',
@@ -279,7 +282,7 @@ const MapPage: React.FunctionComponent<IPage> = props => {
                 aimImage: 'https://i.imgur.com/0MwzwZR.png'
             },
             {
-                id: 4,
+                id: 26,
                 title: 'B SITE FROM SPAWN',
                 desc: "Requires jump throw! Position yourself against the wall at the center of the white bricks. Align the top-left corner of the gas meter bar with the top-left corner of the brick wall.",
                 shortDesc: 'This lineup is far away from site but provides protection against enemies flanking',
@@ -296,7 +299,7 @@ const MapPage: React.FunctionComponent<IPage> = props => {
         mapImage: 'https://i.imgur.com/jR9u5Qm.png',
         lineups: [
             {
-                id: 1,
+                id: 27,
                 title: 'A SITE FROM DISH',
                 desc: 'Align yourself at the line ontop of the left boulders on the image. Aim at the center of the metal column.',
                 shortDesc: 'This lineup allows Viper to control default on A Site from Attacker Side Bridge.',
@@ -305,7 +308,7 @@ const MapPage: React.FunctionComponent<IPage> = props => {
                 aimImage: 'https://i.imgur.com/klYEZHC.png'
             },
             {
-                id: 2,
+                id: 28,
                 title: 'A SITE FROM ROPE',
                 desc: "Position at the corner line right besides door. Align the bottom-right corner of the gas meter bar to the bottom-right corner on the metal roof.",
                 shortDesc: 'This lineup allows Viper to play A Site from Rope on Attacker Side Spawn',
@@ -314,7 +317,7 @@ const MapPage: React.FunctionComponent<IPage> = props => {
                 aimImage: 'https://i.imgur.com/Ky3OhRn.png'
             },
             {
-                id: 3,
+                id: 29,
                 title: 'B SITE FROM ARCADE',
                 desc: 'Position at the corner ontop of the plant and aim at the big gap below the second leaf from the left.',
                 shortDesc: 'This lineup allows Viper to play for B Site at Arcade on Attacker Side Bridge.',
@@ -323,7 +326,7 @@ const MapPage: React.FunctionComponent<IPage> = props => {
                 aimImage: 'https://i.imgur.com/fNYcPjv.png'
             },
             {
-                id: 4,
+                id: 30,
                 title: 'B SITE FROM SPAWN',
                 desc: "Position against the wall at the line. Align the top edge of the Snake Bite ability icon with the metal edge sticking out from the top of the wall.",
                 shortDesc: 'This lineup is used from Tree to cover B Site from Attacker Side Spawn.',
@@ -340,6 +343,7 @@ const MapPage: React.FunctionComponent<IPage> = props => {
 
     const [mapInfo, setMapInfo] = useState(bind);
     const [currentLineup, setCurrentLineup] = useState(mapInfo.lineups[0])
+    const [highlightCurrent, setHighlightCurrent] = useState()
 
     useEffect(() => {
         if (window.location.pathname === '/icebox') {
@@ -363,6 +367,7 @@ const MapPage: React.FunctionComponent<IPage> = props => {
         setCurrentLineup(mapInfo.lineups[0])
     },[mapInfo])
 
+
     return (
         <>
             <NavBar name={'NavBar'} />
@@ -371,10 +376,14 @@ const MapPage: React.FunctionComponent<IPage> = props => {
                 <div className='lineups-left-container'>
                     {mapInfo && mapInfo.lineups.map(lineup => (
 
-                        <div className='lineup-select' onClick={() => {
+                        <div className='lineup-select' 
+                        style={{
+                            background: currentLineup === lineup ? `url(${redstroke})` : `url(${stroke})`
+                        }}
+                        onClick={(e) => {
                             setCurrentLineup(lineup)
-                        }
-                        }>
+                        }}
+                        key={lineup.id}>
                             <div className='lineup-select-text-wrapper'>
                                 <div className='lineup-select-title'>
                                     {lineup.title}
