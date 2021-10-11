@@ -2,7 +2,7 @@
 
 Live Site: http://www.viperpostplants.com/
 
-Viper Lineups is a web application which presents tested and effective lineups for anyone to use. This website features lineups for all the current maps in the game Valorant, displaying both videos and reference images to make the process of learning a lineup extremely quick. 
+Viper Lineups is a web application that presents tested and effective lineups for anyone to use. This website features lineups for all the current maps in the game Valorant, displaying both videos and reference images to make the process of learning a lineup extremely quick. 
 
 <br>
 
