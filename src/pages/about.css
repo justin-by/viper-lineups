@@ -76,11 +76,11 @@
     margin-top: 170%;
     color: #ffffff;
     font-size: 2.3rem;
+    transition: .5s;
 }
 
 .about-link:hover {
     color: rgb(255, 185, 185);
-    transition: .5s;
     cursor: pointer;
 }
 

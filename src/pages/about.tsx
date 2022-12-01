@@ -20,7 +20,8 @@ const AboutPage: React.FunctionComponent<IPage> = props => {
                         <p className='about-message-text'>I've had an amazing time developing this website and I'm happy to be able to share it. I personally play a lot of Valorant and have always wanted to include Valorant in 
                         one of my projects. At the moment this website only features Viper's post plants for default spots but I plan on adding additional lineups in the future. </p>
                     </div>
-                    <div className='about-icon-links'>
+                    
+                    {/* <div className='about-icon-links'>
                         <a href='https://github.com/justin-by' target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-github about-link"></i>
                         </a>
@@ -32,7 +33,7 @@ const AboutPage: React.FunctionComponent<IPage> = props => {
                         <a href='https://angel.co/u/justin-by' target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-angellist about-link"></i>
                         </a>
-                    </div>
+                    </div> */}
 
                     <div className='about-credits'>
                         <h2 className='about-title'>
